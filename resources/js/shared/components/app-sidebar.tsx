@@ -12,7 +12,6 @@ import {
 } from '@/shared/components/ui/sidebar';
 import { type NavItem, type SharedData } from '@/shared/types';
 import { dashboard } from '@/routes';
-import { templates as devTemplates } from '@/routes/dev';
 import { Link, usePage } from '@inertiajs/react';
 import { Blocks, BookOpen, Folder, LayoutGrid } from 'lucide-react';
 import AppLogo from './app-logo';
@@ -38,17 +37,7 @@ const footerNavItems: NavItem[] = [
     },
 ];
 
-const devNavItems: NavItem[] = [
-    {
-        title: 'Templates',
-        href: devTemplates().url,
-        icon: Blocks,
-    },
-];
-
 export function AppSidebar() {
-    const { isDev } = usePage<SharedData>().props;
-
     return (
         <Sidebar collapsible="icon" variant="inset">
             <SidebarHeader>
@@ -65,7 +54,6 @@ export function AppSidebar() {
 
             <SidebarContent>
                 <NavMain items={mainNavItems} />
-                {isDev && <NavMain items={devNavItems} label="Dev Tools" />}
             </SidebarContent>
 
             <SidebarFooter>
