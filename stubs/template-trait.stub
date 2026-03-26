@@ -1,0 +1,8 @@
+<?php
+
+namespace App\Templates\{{ studly }}\Traits;
+
+trait Has{{ studly }}
+{
+    // TODO: Add {{ studly }}-specific User methods and properties here
+}

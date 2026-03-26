@@ -1,0 +1,13 @@
+import { type ReactNode } from 'react';
+
+interface {{ PascalName }}Props {
+    children: ReactNode;
+}
+
+export default function {{ PascalName }}({ children }: {{ PascalName }}Props) {
+    return (
+        <div>
+            {children}
+        </div>
+    );
+}

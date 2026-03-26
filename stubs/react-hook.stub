@@ -1,0 +1,5 @@
+export function use{{ HookName }}() {
+    // TODO: implement hook
+
+    return {};
+}

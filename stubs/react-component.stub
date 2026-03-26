@@ -1,0 +1,11 @@
+interface {{ PascalName }}Props {
+    // TODO: define props
+}
+
+export default function {{ PascalName }}({ }: {{ PascalName }}Props) {
+    return (
+        <div>
+            {/* {{ PascalName }} */}
+        </div>
+    );
+}

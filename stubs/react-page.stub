@@ -1,0 +1,16 @@
+import { Head } from '@inertiajs/react';
+
+interface Props {
+    // TODO: define props
+}
+
+export default function {{ PascalName }}({ }: Props) {
+    return (
+        <>
+            <Head title="{{ Title }}" />
+            <div>
+                {/* {{ PascalName }} page */}
+            </div>
+        </>
+    );
+}
