@@ -4,7 +4,7 @@ A [Forma](https://github.com/launchforma) template for small business websites.
 
 ## Deploy on Railway
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/new/template/<RAILWAY_TEMPLATE_ID>)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.com/deploy/forma-test-template-development)
 
 ## Requirements
 
