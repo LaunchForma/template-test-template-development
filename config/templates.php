@@ -5,6 +5,7 @@ return [
         'test-template-development' => array (
   'name' => 'Test Template Development',
   'entry_route' => 'test-template-development.home',
+  'railway_template_id' => '',
   'user_traits' => 
   array (
     0 => 'HasTestTemplateDevelopment',
